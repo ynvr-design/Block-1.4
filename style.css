@@ -1,0 +1,183 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+  height: 100%
+}
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url("fonts/TTLakes-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "TTLakes-regular";
+  src: url("fonts/TTLakes-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTLakes-DemiBold";
+  src: url("fonts/TTLakes-DemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "TTLakes-Condensed-DemiBold";
+    src: url("fonts/TTLakesCondensed-DemiBold.woff") format("woff");
+  }
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.header-container {
+  display: flex;
+}
+
+
+.header-button__burger {
+    margin: 0;
+    padding: 0;
+    margin-left: 24px;
+    margin-top: 23px;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+    margin-left: 16.73px;
+    margin-top: 18.73px;
+}
+
+.header-button__search {
+    margin: 0;
+    padding: 0;
+    margin-left: 78.27px;
+    margin-top: 23px;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  .nav-item {
+    font-family: "TTLakes-Condensed-DemiBold";
+    font-size: 16px;
+    color: #1B1C21;
+    transition: opacity 0.3s ease;
+    margin-left: 24px;
+    position: relative;
+  }
+
+  .nav-item:hover {
+    opacity: 0.6;
+  }
+
+  .nav-item:focus::before {
+    content: url(images/highlight.svg);
+  
+    position: absolute;
+    top: 50%; 
+  transform: translateY(-50%);
+    left: 0;    
+    left: -24px;
+  }
+
+  li {  
+    margin-bottom: 32px;
+  }
+
+  .nav-list {   
+    margin-bottom: auto;
+    margin-top: 46.27px;
+  }
+
+  .contacts {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 24px;
+    gap: 14px;
+    flex-direction: column;
+
+  }
+
+  .contacts-mail {
+    font-family: "TTLakes-DemiBold";
+    font-size: 16px;
+  }
+
+  .contacts-number {
+    font-family: "TTLakes-DemiBold";
+    font-size: 24px;
+  }
+
+ .contacts-buttons {
+  display: flex; 
+  align-items: center;
+  gap: 16px;
+}
+
+.contacts-number {
+    font-family: "TTLakes-Bold";
+    font-size: 24px;
+}
+
+.ru,
+.en,
+.ch {
+    font-family: "TTLakes-Condensed-DemiBold";
+    font-size: 16px;
+    
+}
+
+
+.lang {
+    margin: 0;
+    padding: 0;
+    margin-left: 24px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    transition: opacity 0.3s ease;
+}
+
+.ch:hover {
+    opacity: 0.6;
+  }
+  .en:hover {
+    opacity: 0.6;
+  }
+  .ru:hover {
+    opacity: 0.6;
+  }
+
+.wrapper-footer {
+    height: 200px;
+    }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
