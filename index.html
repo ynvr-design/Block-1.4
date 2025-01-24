@@ -9,61 +9,71 @@
   <body>
     <aside>
       <header class="header">
-        <div class="header-container">
-          <button class="header-container__button-burger">
-            <img src="images/burger.svg" />
-          </button>
+        <button class="header-container__button-burger">
+          <img src="images/burger.svg" />
+        </button>
 
-          <a href="/" class="header-logo">
-            <img src="images/Group.svg" alt="logo" />
-          </a>
+        <a href="/" class="header__logo">
+          <img src="images/Group.svg" alt="logo" />
+        </a>
 
-          <button class="header-container__button-search">
-            <img src="images/search.svg" />
-          </button>
-        </div>
+        <button class="header-container__button-search">
+          <img src="images/search.svg" />
+        </button>
       </header>
 
       <nav class="nav">
-        <ul class="nav-list">
+        <ul class="nav__list">
           <li><a href="#repair-divice" class="nav-item">Ремонт техники</a></li>
-          <li><a href="#services-support" class="nav-item">Услуги и сервисы</a></li>
-          <li><a href="#corporate-clients" class="nav-item">Корпоративным клиентам</a></li>
-          <li><a href="#equipment-sellers" class="nav-item">Продавцам техники</a></li>
+          <li>
+            <a href="#services-support" class="nav-item">Услуги и сервисы</a>
+          </li>
+          <li>
+            <a href="#corporate-clients" class="nav-item"
+              >Корпоративным клиентам</a
+            >
+          </li>
+          <li>
+            <a href="#equipment-sellers" class="nav-item">Продавцам техники</a>
+          </li>
           <li><a href="#partners" class="nav-item">Партнерам</a></li>
           <li><a href="#manufacturers" class="nav-item">Производителям</a></li>
-          <li><a href="#service-centers" class="nav-item">Наши сервисные центры</a></li>
+          <li>
+            <a href="#service-centers" class="nav-item"
+              >Наши сервисные центры</a
+            >
+          </li>
           <li><a href="#contacts" class="nav-item">Контакты</a></li>
         </ul>
       </nav>
 
       <footer class="wrapper-footer">
-        <div class="contacts">
-          <ul class="contacts-buttons">
-            <li>
-              <button class="contacts-button__call">
-                <img src="images/call.svg" />
-              </button>
-            </li>
-            <li>
-              <button class="contacts-button__chat">
-                <img src="images/chat.svg" />
-              </button>
-            </li>
-            <li>
-              <button class="contacts-button__profile">
-                <img src="images/profile.svg" />
-              </button>
-            </li>
-          </ul>
-          <span class="contacts-mail"><a href="mailto:mail@cps.com">mail@cps.com</a></span>
-          <span class="contacts-number"><a href="tel:88008908900">8 800 890 8900</a></span>
-        </div>
+        <ul class="contacts-buttons">
+          <li>
+            <button class="contacts-button__call">
+              <img src="images/call.svg" />
+            </button>
+          </li>
+          <li>
+            <button class="contacts-button__chat">
+              <img src="images/chat.svg" />
+            </button>
+          </li>
+          <li>
+            <button class="contacts-button__profile">
+              <img src="images/profile.svg" />
+            </button>
+          </li>
+        </ul>
+        <address class="address">
+          <a class="address__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+          <a class="address__number" href="tel:88008908900">8 800 890 8900</a>
+        </address>
 
         <ul class="lang">
-          <li><button class="lang__button-ru">RU</button></li>
-          <li><button class="lang__button-en">EN</button></li>
-          <li><button class="lang__button-ch">CH</button></li>
+          <li><button class="lang__button">RU</button></li>
+          <li><button class="lang__button">EN</button></li>
+          <li><button class="lang__button">CH</button></li>
         </ul>
       </footer>
     </aside>
