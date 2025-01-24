@@ -42,7 +42,7 @@ button {
   border: none;
 }
 
-.header-container {
+.header {
   display: flex;
 }
 
@@ -53,7 +53,7 @@ button {
   margin-top: 23px;
 }
 
-.header-logo {
+.header__logo {
   margin: 0;
   padding: 0;
   margin-left: 16.73px;
@@ -68,7 +68,7 @@ button {
 }
 
 .contacts-buttons,
-.nav-list,
+.nav__list,
 .lang {
   list-style: none;
   padding: 0;
@@ -115,12 +115,12 @@ li {
   margin-bottom: 32px;
 }
 
-.nav-list {
+.nav__list {
   margin-bottom: auto;
   margin-top: 46.27px;
 }
 
-.contacts {
+.wrapper-footer {
   display: flex;
   margin: 0;
   padding: 0;
@@ -129,14 +129,15 @@ li {
   flex-direction: column;
 }
 
-.contacts-mail {
+.address__mail {
   font-family: "TTLakes-DemiBold";
   font-size: 16px;
 }
 
-.contacts-number {
+.address__number {
   font-family: "TTLakes-DemiBold";
   font-size: 24px;
+  white-space: nowrap;
 }
 
 .contacts-buttons {
@@ -145,14 +146,12 @@ li {
   gap: 16px;
 }
 
-.contacts-number {
+.address__number {
   font-family: "TTLakes-Bold";
   font-size: 24px;
 }
 
-.lang__button-ru,
-.lang__button-en,
-.lang__button-ch {
+.lang__button {
   font-family: "TTLakes-Condensed-DemiBold";
   font-size: 16px;
 }
@@ -160,18 +159,21 @@ li {
 .lang {
   margin: 0;
   padding: 0;
-  margin-left: 24px;
   margin-top: 40px;
   display: flex;
   gap: 7px;
   transition: opacity 0.3s ease;
 }
 
-.lang__button-ch:hover,
-.lang__button-en:hover,
-.lang__button-ru:hover,
-.contacts-mail:hover,
-.contacts-number:hover,
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lang__button:hover,
+.address__mail:hover,
+.address__number:hover,
 .contacts-button__call:hover,
 .contacts-button__chat:hover,
 .contacts-button__profile:hover,
